@@ -1,0 +1,22 @@
+{
+  "blogs": [
+    {
+      "id": 1,
+      "title": "Opening Party!",
+      "body": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque quam odit animi esse unde veniam quod quibusdam. Quisquam vel iure tenetur atque, aut illum corporis accusantium molestias. In ratione pariatur, illo porro, expedita totam alias quaerat velit accusantium itaque aliquam quod eaque nihil debitis repellendus provident odit dignissimos. Iste nam maiores sunt qui corporis asperiores sint enim saepe alias porro aliquam in architecto excepturi ipsam, dolorum veritatis ex, expedita dolore iusto aperiam mollitia similique numquam ducimus. Ea sunt delectus molestias praesentium autem itaque assumenda voluptatibus architecto quas, beatae necessitatibus aspernatur! Est delectus, ut at ab unde quae soluta impedit voluptatum.",
+      "author": "Amitay"
+    },
+    {
+      "id": 2,
+      "title": "Welcome to the new blog",
+      "body": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias eaque minus deserunt maxime, culpa eos id eius iusto rerum adipisci, assumenda officia nam eveniet dolores perspiciatis obcaecati expedita natus aliquid! Beatae nostrum provident suscipit voluptatibus quibusdam minima architecto tempora nihil itaque possimus animi autem culpa pariatur aspernatur eius ex, ab obcaecati mollitia voluptates officia dolorum. Consequatur accusamus ut vitae laudantium eveniet officiis quis, sequi debitis, consectetur odit omnis dolor a laboriosam assumenda repellendus expedita officia? Harum dolorem distinctio nulla omnis debitis, odio facilis cumque repudiandae amet sit libero ratione nemo magni hic quam! Mollitia doloremque eum placeat tempore sed ab?",
+      "author": "Marion"
+    },
+    {
+      "id": 3,
+      "title": "Covid-19 in Da House",
+      "body": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, ullam mollitia itaque vitae eaque nam optio fugiat exercitationem nihil perferendis voluptas accusamus delectus aliquam minus aperiam odio fugit cum, tempora obcaecati voluptate voluptatem quidem tenetur. Nulla itaque, modi dignissimos eligendi voluptates laborum harum velit fugiat mollitia porro, accusantium consectetur sunt provident sequi, ipsam soluta enim dolores? Facere perspiciatis natus labore sit ipsum nihil suscipit assumenda, quia sed quam necessitatibus ad reprehenderit voluptatibus nobis! Consequatur aspernatur quidem quam, numquam minus ab debitis dicta tempora nemo autem aperiam excepturi ratione maxime ex velit fuga magni officia sapiente at quo. Quasi, eum labore!",
+      "author": "Covid"
+    }
+  ]
+}

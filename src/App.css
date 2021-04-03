@@ -1,38 +1,97 @@
-.App {
-  text-align: center;
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+:root {
+  --main-color: #ff498b;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+body {
+  padding: 20px 30px;
+  color: #333;
+  max-width: 800px;
+  margin: 10px auto;
+  font-size: 1.1rem;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  color: #333;
+}
+
+/* Header */
+#header::after {
+  content: '';
+  border-bottom: 1px solid #f4f4f4;
+  width: 90%;
+  display: block;
+  margin: auto;
+  margin-top: 15px;
+}
+
+#header .nav {
   display: flex;
-  flex-direction: column;
+  justify-content: space-between;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+#header nav ul {
+  display: flex;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+#header nav ul a {
+  padding: 10px;
+  margin-left: 10px;
+  font-size: 1.4rem;
+}
+
+.logo {
+  color: var(--main-color);
+}
+
+.new-blog-btn {
+  background-color: var(--main-color);
+  border-radius: 10px;
+}
+
+.new-blog-btn a {
+  color: #fff;
+}
+
+/* Blogs */
+.home {
+  margin-top: 100px;
+}
+
+.blog {
+  padding: 20px;
+  transition: 0.5s;
+  margin-top: 10px;
+  position: relative;
+}
+
+.blog .delete {
+  position: absolute;
+  right: 0;
+  top: 0;
+  padding: 5px 10px;
+  background: var(--main-color);
+  color: #fff;
+  cursor: pointer;
+}
+
+.blog h3 {
+  margin-top: 10px;
+}
+
+.blog:hover {
+  -webkit-box-shadow: 3px 3px 5px 6px #ccc;
+  -moz-box-shadow: 3px 3px 5px 6px #ccc;
+  box-shadow: 3px 3px 5px 6px #ccc;
 }
